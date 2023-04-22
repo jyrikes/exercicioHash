@@ -1,3 +1,4 @@
+package hash;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
@@ -8,9 +9,7 @@ import java.util.Set;
 import org.junit.Before;
 import org.junit.Test;
 
-import hash.EstruturaHashTable;
-
-public class TestHashingAberto {
+public  class TestHashingAberto {
     
     private EstruturaHashTable ha;
 
@@ -46,4 +45,5 @@ public class TestHashingAberto {
         assertFalse(ha.search(10));
         
     }
+  
 }
